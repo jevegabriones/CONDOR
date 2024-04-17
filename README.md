@@ -1,8 +1,7 @@
 # CONDOR
 Tree rings for drought monitoring
 
-Load the example in RStudio, the digitalized tree-ring file, and ".Rdata" file with the tree-ring points.
-The complete dataset will be submitted when dendrochronologies are finished.
+Load the example in RStudio, the digitalized tree-ring ".jpg", and ".Rdata" with the tree-ring points detected.
 
 You can download the time series for all studied catchments from Yoda including: 
 - Temperature
@@ -16,3 +15,4 @@ You can download the time series for all studied catchments from Yoda including:
 - NDVI
 
 link: 
+(*)The complete dataset will be submitted when dendrochronologies are finished.
