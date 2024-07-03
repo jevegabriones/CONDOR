@@ -14,5 +14,4 @@ You can download the time series for all studied catchments from Yoda including:
 - Baseflow
 - EVI
 
-link: 
-(*)The complete dataset will be submitted when dendrochronologies are finished.
+download data: https://geo.yoda.uu.nl/CONDOR 
