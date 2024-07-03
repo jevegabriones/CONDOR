@@ -10,8 +10,8 @@ You can download the time series for all studied catchments from Yoda including:
 - Surface water observations
 - Potential evapotranspiration
 - Soil moisture
-- groundwater recharge
-- baseflow
+- Groundwater recharge
+- Baseflow
 - EVI
 
 link: 
