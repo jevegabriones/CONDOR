@@ -2,12 +2,7 @@
 library(MtreeRing)
 library(dplR)
 
-# Use MTreeRing Shiny app
-# #library(shiny)
-# MtreeRing::ring_app_launch()
-# getwd()
-
-###################### DUQUECO BASIN ######################################
+###################### Import Wood data ######################################
 
 # Import Data
 #setwd("C:/Users/VegaB002/OneDrive - Universiteit Utrecht/Pictures/2023_10_27/8.duqueco/input")
@@ -16,9 +11,9 @@ setwd("~/CONDOR/8.duqueco/input")
 # output_dir <- "C:/Users/VegaB002/OneDrive - Universiteit Utrecht/Pictures/2023_10_27/8.duqueco/output"
 output_dir <- "~/CONDOR/8.duqueco/output"
 
-####################### PESL12 ############################################
+####################### Samples ############################################
 
-var = "PESL12" # TREE ID
+var = "sample_ID" # example: "PESL12"
 extension = ".jpg"
 img.path <- paste0(var, extension)
 var_extension <- c(1,2,3,4)
@@ -40,7 +35,6 @@ save(x, file = file.path(output_dir, paste0(var,"_points.RData")))
 fn <- tempfile(fileext=".rwl")
 write.rwl(rwl.df = rwl, fname = file.path(output_dir, paste0(var,".rwl")), format = "tucson")
 write.csv(rwl, file = file.path(output_dir, paste0(var,".csv")))
-# tentative fake TR = ()
 
 ################################### Evaluate ############################################
 
@@ -51,7 +45,6 @@ write.csv(rwl, file = file.path(output_dir, paste0(var,".csv")))
 # If series is too low: replace (+ or -), add, remove
 
 BEST_SERIE = "PESL12"
-# saved_points <- ('c:/Users/VegaB002/OneDrive - Universiteit Utrecht/Pictures/2023_10_27/8.duqueco/output/')
 saved_points <- ('~/CONDOR/8.duqueco/output')
 extension = "_points.RData"
 points.path <- paste0(saved_points, BEST_SERIE, extension)
@@ -60,7 +53,7 @@ load(points.path) #
 loaded <- paste0("t", substr(BEST_SERIE2, start = 5, stop = 6),".4")
 str(loaded)
 # Call the plots
-t3 <- ring_modify(ring.data = x, del = c(3,4,5,6))# Watershed
+t3 <- ring_modify(ring.data = get(loaded), del = c(1)) # first identified ring removed
 t4 <- ring_modify(ring.data = t3, add=TRUE)
 # Ring calculation
 rw.df <- ring_calculate(ring.data = t4, seriesID = BEST_SERIE)
