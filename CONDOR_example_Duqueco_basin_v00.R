@@ -36,13 +36,9 @@ fn <- tempfile(fileext=".rwl")
 write.rwl(rwl.df = rwl, fname = file.path(output_dir, paste0(var,".rwl")), format = "tucson")
 write.csv(rwl, file = file.path(output_dir, paste0(var,".csv")))
 
-################################### Evaluate ############################################
+################################### Evaluate identified Tree-Rings ############################################
 
-# step 1.1: MTreeRing
-
-# Identify YEAR
-# If Series is too high: replace (+ or -), add, remove
-# If series is too low: replace (+ or -), add, remove
+# step 1.1: MTreeRing - Redefine selected points
 
 BEST_SERIE = "PESL12"
 saved_points <- ('~/CONDOR/8.duqueco/output')
