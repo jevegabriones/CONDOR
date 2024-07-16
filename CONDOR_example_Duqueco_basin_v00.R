@@ -5,10 +5,7 @@ library(dplR)
 ###################### Import Wood data ######################################
 
 # Import Data
-#setwd("C:/Users/VegaB002/OneDrive - Universiteit Utrecht/Pictures/2023_10_27/8.duqueco/input")
 setwd("~/CONDOR/8.duqueco/input")
-
-# output_dir <- "C:/Users/VegaB002/OneDrive - Universiteit Utrecht/Pictures/2023_10_27/8.duqueco/output"
 output_dir <- "~/CONDOR/8.duqueco/output"
 
 ####################### Samples ############################################
