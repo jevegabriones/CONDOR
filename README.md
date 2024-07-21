@@ -5,9 +5,9 @@ Load the digitalized tree-ring example in RStudio ".jpg", and ".Rdata" with the 
 
 Download digital tree ring samples from: https://geo.yoda.uu.nl/CONDOR/chronologies
 
-Download time series of observations, ERA5 and PCR-GLOBWB2.0 time series of catchments from: https://geo.yoda.uu.nl/CONDOR/timeseries
+Download catchments time series from: https://geo.yoda.uu.nl/CONDOR/timeseries
 
-The dataset includes observations, ERA5 and PCR-GLOBWB2.0 time series of catchments including:
+The dataset includes observations, ERA5, and PCR-GLOBWB2.0 time series of catchments including:
 - Temperature (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
 - Precipitation (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
 - Groundwater observations (Venegas et al., 2024)
