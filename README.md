@@ -12,7 +12,7 @@ The dataset includes observations, ERA5, and PCR-GLOBWB2.0 model outputs:
 - Precipitation (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
 - Groundwater observations (Venegas et al., 2024)
 - Surface water observations (CAMELS-CL)
-- Potential evapotranspiration (Penman-Monteith from ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
+- Potential evapotranspiration (Penman-Monteith from ERA5 Monthly Aggregated - ECMWF Climate Reanalysis)
 - Soil moisture (CCI-SM)
 - Groundwater recharge (PCR-GLOBWB2.0)
 - Baseflow (PCR-GLOBWB2.0)
