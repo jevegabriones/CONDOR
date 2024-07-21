@@ -1,5 +1,5 @@
 # CONDOR
-Tree rings as indicators of drought impacts
+Tree rings as indicators of drought impacts.
 
 Load the example in RStudio, the digitalized tree-ring ".jpg", and ".Rdata" with the tree-ring points detected.
 
