@@ -7,7 +7,7 @@ Download digital tree ring samples from: https://geo.yoda.uu.nl/CONDOR/chronolog
 
 Download catchments time series from: https://geo.yoda.uu.nl/CONDOR/timeseries
 
-The dataset includes observations, ERA5, and PCR-GLOBWB2.0 time series of catchments including:
+The dataset includes observations, ERA5, and PCR-GLOBWB2.0 model outputs:
 - Temperature (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
 - Precipitation (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
 - Groundwater observations (Venegas et al., 2024)
