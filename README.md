@@ -3,13 +3,13 @@ Tree rings as indicators of drought impacts.
 
 Load the digitalized tree-ring example in RStudio ".jpg", and ".Rdata" with the tree-ring points detected.
 
-Download tree ring chronologies from: https://geo.yoda.uu.nl/CONDOR/chronologies
+Download tree ring chronologies: https://geo.yoda.uu.nl/CONDOR/chronologies
 
-Download digital tree ring samples from: https://geo.yoda.uu.nl/CONDOR/samples_jpg
+Download digital tree ring samples: https://geo.yoda.uu.nl/CONDOR/samples_jpg
 
-Download identified tree rings from: https://geo.yoda.uu.nl/CONDOR/Sample_TRW
+Download identified tree rings: https://geo.yoda.uu.nl/CONDOR/Sample_TRW
 
-Download catchments time series from: https://geo.yoda.uu.nl/CONDOR/timeseries
+Download catchments time series: https://geo.yoda.uu.nl/CONDOR/timeseries
 
 The dataset includes observations, ERA5, and PCR-GLOBWB2.0 model outputs:
 - Temperature (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
