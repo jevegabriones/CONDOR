@@ -5,7 +5,7 @@ CONDOR
 
 Overview
 ========
-This repository contains tree ring data and associated hydroclimatic observations that can be used to study drought impacts in Chile.
+This repository contains tree ring data and associated hydroclimatic observations that can be used to study drought impacts.
 
 Getting Started
 ===============
