@@ -1,23 +1,28 @@
-# CONDOR
-Tree rings as indicators of drought impacts.
+CONDOR (Chilean ObservatioNs of DrOught chRonologies)
+=====================================================
 
-Load the digitalized tree-ring example in RStudio ".jpg", and ".Rdata" with the tree-ring points detected.
+Overview
+This repository contains tree ring data and associated hydroclimatic observations that can be used to study drought impacts in Chile. The data includes:
 
-Download tree ring chronologies: https://geo.yoda.uu.nl/CONDOR/chronologies
+Tree ring chronologies: https://geo.yoda.uu.nl/CONDOR/chronologies
+Digitalized tree core samples: https://geo.yoda.uu.nl/CONDOR/samples_jpg
+Identified tree rings: https://geo.yoda.uu.nl/CONDOR/Sample_TRW
+Basin-level time series data: https://geo.yoda.uu.nl/CONDOR/timeseries
 
-Download digital tree ring samples: https://geo.yoda.uu.nl/CONDOR/samples_jpg
+Getting Started
+Download the example data from https://github.com/jevegabriones/CONDOR
+Load the digitalized tree-ring example in RStudio using the ".jpg" and ".Rdata" files, which contain the tree-ring points detected.
+Load the identified tree rings in RStudio using the provided Rdata file.
 
-Download identified tree rings: https://geo.yoda.uu.nl/CONDOR/Sample_TRW
+Dataset Description
+The dataset includes the following observations, ERA5 basin averages, and PCR-GLOBWB2.0 model basin averages:
 
-Download catchments time series: https://geo.yoda.uu.nl/CONDOR/timeseries
-
-The dataset includes observations, ERA5, and PCR-GLOBWB2.0 model outputs:
-- Temperature (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
-- Precipitation (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis)
+- Temperature (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis, Muñoz Sabater, J., 2019)
+- Precipitation (ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis, Muñoz Sabater, J., 2019)
 - Groundwater observations (Venegas et al., 2024)
-- Surface water observations (CAMELS-CL)
-- Potential evapotranspiration (Penman-Monteith from ERA5 Monthly Aggregated - ECMWF Climate Reanalysis)
-- Soil moisture (CCI-SM)
-- Groundwater recharge (PCR-GLOBWB2.0)
-- Baseflow (PCR-GLOBWB2.0)
-- EVI (MODIS/Terra and Aqua Surface Reflectance Daily L2G Global 1 km and 500 m)
+- Surface water observations (CAMELS-CL, Alvarez-Garreton et al., 2018)
+- Potential evapotranspiration (Penman-Monteith, ERA5 global reanalysis Monthly Aggregated - ECMWF Climate Reanalysis, Hersbach et al., 2020)
+- Soil moisture (CCI-SM, Preimesberger et al., 2021)
+- Groundwater recharge (PCR-GLOBWB2.0, Sutanudjaja et al., 2018)
+- Baseflow (PCR-GLOBWB2.0, Sutanudjaja et al., 2018)
+- EVI (MODIS/Terra and Aqua Surface Reflectance Daily L2G Global 1 km and 500 m, Didan, K., 2015)
