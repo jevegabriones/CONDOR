@@ -1,4 +1,6 @@
-CONDOR (Chilean ObservatioNs of DrOught chRonologies)
+CONDOR
+======
+(Chilean ObservatioNs of DrOught chRonologies)
 =====================================================
 
 Overview
