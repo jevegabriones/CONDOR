@@ -4,10 +4,10 @@ CONDOR (Chilean ObservatioNs of DrOught chRonologies)
 Overview
 This repository contains tree ring data and associated hydroclimatic observations that can be used to study drought impacts in Chile. The data includes:
 
-Tree ring chronologies: https://geo.yoda.uu.nl/CONDOR/chronologies
-Digitalized tree core samples: https://geo.yoda.uu.nl/CONDOR/samples_jpg
-Identified tree rings: https://geo.yoda.uu.nl/CONDOR/Sample_TRW
-Basin-level time series data: https://geo.yoda.uu.nl/CONDOR/timeseries
+Tree ring chronologies: https://geo.yoda.uu.nl/CONDOR/chronologies\\
+Digitalized tree core samples: https://geo.yoda.uu.nl/CONDOR/samples_jpg\\
+Identified tree rings: https://geo.yoda.uu.nl/CONDOR/Sample_TRW\\
+Basin-level time series data: https://geo.yoda.uu.nl/CONDOR/timeseries\\
 
 Getting Started
 Download the example data from https://github.com/jevegabriones/CONDOR
