@@ -10,7 +10,7 @@ This repository contains tree ring data and associated hydroclimatic observation
 Getting Started
 ===============
 1. Download the example data from https://github.com/jevegabriones/CONDOR
-2. Load the digitalized tree-ring example in RStudio using the ".jpg" and ".Rdata" files, which contain the tree-ring points detected.
+2. Load the digitalized tree-ring example in RStudio using the ".jpg" and ".Rdata" files containing the tree-ring points detected.
 3. Load the identified tree rings in RStudio using the provided Rdata file.
 
 Dataset Description
@@ -29,7 +29,7 @@ The dataset includes the following observations, ERA5 basin averages, and PCR-GL
 
 Access data
 ============
-The data can be accessed at the following links:
+The data is available at the following links:
 
 - Tree ring chronologies: https://geo.yoda.uu.nl/CONDOR/chronologies
 - Digitalized tree core samples: https://geo.yoda.uu.nl/CONDOR/samples_jpg
